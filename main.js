@@ -1,2 +1,4 @@
-document.querySelector("#main").innerHTML+=Menu();
+document.querySelector("#menu").innerHTML+=Menu();
 document.querySelector("#button").innerHTML+=Button();
+document.querySelector("#card").innerHTML+=Card();
+

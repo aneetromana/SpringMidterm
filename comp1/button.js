@@ -11,6 +11,6 @@ function Button() {
     margin: 4px 2px;
     cursor: pointer;
     font-family: 'Actor', sans-serif;
-        onclick="HandleOpen()">Next</button>
+        <button>onclick="HandleOpen()">Next</button>
     </div> `;
 }
