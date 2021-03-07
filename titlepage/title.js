@@ -15,5 +15,6 @@ function Title() {
                         2px 2px 0 #DAB8FF;
                         text-align:center;
     onclick="HandleOpen()">Kitten Adoption</button>
+    <img src ="kitten.png">
     </div> `;
 }
