@@ -167,14 +167,56 @@
   }
 
 
-  .buttons {
-    width: 200px;
-    margin: 0 auto;
-    display: inline;
-  }
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.nav {
+    font-size:35px;
+    background: #F2FFF6;
+    width: 60vw;
+    height:6vw;  
     
-        .action_btn {
-    width: 200px;
-    margin: 0 auto;
-    display: inline;
-  }
+    
+}
