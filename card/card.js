@@ -2,7 +2,7 @@ function Card() {
     return `
     <div id="card" style="
     border-radius: 25px;
-    background: #EFFCFF;
+    background: #FFE5F9;
     width: 60vw;
     height: 100vw;  
     margin:50px;

@@ -7,3 +7,11 @@ function ExitMenu(){
   document.querySelector(".menu_items").style.display = "none";
 }
 
+function Quiz(){
+  document.getElementById('quiz').innerHTML="That is correct";
+  document.getElementById('quiz').style.color="green";
+}
+
+function Quiz(){
+  document.getElementById('quiz').innerHTML="That is not correct";
+}

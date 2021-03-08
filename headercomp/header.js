@@ -14,6 +14,7 @@ function Header() {
     2px 2px 0 #FFCDF4;
     text-align:center;
     position: absolute;
+    z-index:-3;"
      onclick="HandleOpen()">Kitten Adoption</button>
     </div> `;
 }
