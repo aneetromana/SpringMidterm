@@ -1,6 +1,6 @@
-function Button() {
+function NextPage(url) {
     return `
-    <div id="button" style="
+    <div id="button" onclick="NextPage('page3.html')" style="
     background-color: #EEE5FF;
     border: 7px solid #FFFFFF;
     border-radius: 12px;
@@ -13,9 +13,13 @@ function Button() {
     cursor: pointer;
     font-family: 'Actor', sans-serif;
     position: absolute;
-  left: 350px;
+  left: 400px;
   top: 50vw;
-  z-index: 1;
-        <button>onclick="HandleOpen()">Next</button>
+  z-index: 1;"
+  <div onclick="NextPage('./page3.html')">
+  next
+</div>
+		Next
+	</div>
     </div> `;
 }
