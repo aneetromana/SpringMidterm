@@ -5,7 +5,6 @@ function Title() {
     background: #EEE5FF; 
     width: 60vw;
     height: 100vw;  
-    margin:50px;
     font-family: 'Actor', sans-serif;
     font-size: 80px;
     color: #FFFFFF;
@@ -14,6 +13,8 @@ function Title() {
                          2px 2px 0 #DAB8FF,
                         2px 2px 0 #DAB8FF;
                         text-align:center;
+    position:relative;
+    margin:0;
     onclick="HandleOpen()">Kitten Adoption</button>
     <img src ="kitten.png">
     </div> `;

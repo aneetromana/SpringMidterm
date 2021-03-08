@@ -3,7 +3,7 @@ function Header() {
     <div id="header" style="
     font-size:35px;
     background: #F2FFF6;
-    width: 60vw;
+    width: 63.6vw;
     height:6vw;  
     font-family: 'Actor', sans-serif;
     font-size: 40px;
@@ -14,7 +14,6 @@ function Header() {
     2px 2px 0 #FFCDF4;
     text-align:center;
     position: absolute;
-    margin-top: 0; 
      onclick="HandleOpen()">Kitten Adoption</button>
     </div> `;
 }

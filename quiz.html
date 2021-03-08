@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            quiz
+        </title>
+    </head>
+    <body>
+       
+        <div id="main">
+            <div id="header">
+                <div class="close"></div>
+            </div>
+            <div id="card">
+                <div id="quiz"> true or false</div>
+            <button onclick="truee()">true</button>
+            <button onclick="falsee()">false</button>
+
+            </div>
+    
+            
+            
+        </div>
+        
+        
+     
+         <script src="headercomp/header.js"></script>
+         <script src="comp1/button.js"></script>
+         <script src="card/card.js"></script>
+         <script src="comps/menu/index.js"></script>
+         <script src="./main.js"></script>
+         <script src="index.js"></script>
+         <script>
+            function truee(){
+                document.getElementById('quiz').innerHTML="That is correct";
+                document.getElementById('quiz').style.color="green";
+            }
+
+            function falsee(){
+                document.getElementById('quiz').innerHTML="That is not correct";
+            }
+        </script>
+    </body>
+</html>
+
+

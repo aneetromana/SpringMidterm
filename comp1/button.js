@@ -12,7 +12,10 @@ function Button() {
     margin: 4px 2px;
     cursor: pointer;
     font-family: 'Actor', sans-serif;
-    position:absolute;
+    position: absolute;
+  left: 350px;
+  top: 50vw;
+  z-index: 1;
         <button>onclick="HandleOpen()">Next</button>
     </div> `;
 }

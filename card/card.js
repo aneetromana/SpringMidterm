@@ -14,9 +14,8 @@ function Card() {
     2px 2px 0 #FFCDF4,
     2px 2px 0 #FFCDF4;
     text-align:center;
-    positon:absolute;
-  
-    
+    position:absolute;
+    z-index:-4;"
         onclick="HandleOpen()"></button>
     </div> `;
 }

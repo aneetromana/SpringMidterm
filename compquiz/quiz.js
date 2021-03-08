@@ -1,7 +1,7 @@
-function Menu() {
+function Quiz() {
     return `
-    <div id="menu" style="
-    position:fixed;
+    <div id="quiz" style="
+    
     width:150px;
     background-color:#F2FFF6;
     padding:10px;
@@ -17,9 +17,9 @@ function Menu() {
         border-radius: 6px;;
         border-width: 4px;
         font-family: 'Actor', sans-serif;
-        font-size: 20px;
-        position:absolute;"
-        onclick="HandleOpen()">open</button>
+        font-size: 20px;"
+        position:absolute;
+        onclick="HandleOpen()"></button>
         <div>
             <div>Why Adopt?</div>
             <div>What kind of cats can you adopt?</div>
@@ -29,17 +29,3 @@ function Menu() {
     </div> `;
 }
 
-var menu_class = "close";
-function HandleOpen() {
-    if (
-        menu_class == "close"
-    ) {
-        menu_class = "open";
-        document.querySelector("#menu").style.left = "0px";
-    }
-    else {
-        menu_class = "close";
-        document.querySelector("#menu").style.left = "-100px";
-    }
-
-}
