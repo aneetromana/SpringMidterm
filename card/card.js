@@ -14,9 +14,10 @@ function Card() {
     2px 2px 0 #FFCDF4,
     2px 2px 0 #FFCDF4;
     text-align:center;
+    positon:absolute;
   
     
-        onclick="HandleOpen()">Why adopt a cat</button>
+        onclick="HandleOpen()"></button>
     </div> `;
 }
 
