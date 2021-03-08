@@ -17,6 +17,7 @@ function Card() {
     position:absolute;
     z-index:-4;"
         onclick="HandleOpen()"></button>
+        
     </div> `;
 }
 
