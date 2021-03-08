@@ -1,5 +1,5 @@
 document.querySelector("#main").innerHTML+=Menu();
-document.querySelector("#main").innerHTML+=Button();
-document.querySelector("#main").innerHTML+=Card();
-document.querySelector("#main").innerHTML+=Header();
+document.querySelector("#button").innerHTML+=Button();
+document.querySelector("#card").innerHTML+=Card();
+document.querySelector("#header").innerHTML+=Header();
 document.querySelector("#title").innerHTML+=Title();

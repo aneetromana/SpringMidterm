@@ -6,7 +6,7 @@ function Header() {
     width: 60vw;
     height:6vw;  
     font-family: 'Actor', sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     color: #FFFFFF;
     text-shadow: 2px 2px 2px  #FFCDF4,
     2px 2px 0 #FFCDF4,

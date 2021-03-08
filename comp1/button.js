@@ -4,6 +4,7 @@ function Button() {
     background-color: #EEE5FF;
     border: 7px solid #FFFFFF;
     border-radius: 12px;
+    width: 40px;
     padding: 15px 32px;
     text-align: center;
     display: flex;
@@ -11,6 +12,7 @@ function Button() {
     margin: 4px 2px;
     cursor: pointer;
     font-family: 'Actor', sans-serif;
+    position:absolute;
         <button>onclick="HandleOpen()">Next</button>
     </div> `;
 }
