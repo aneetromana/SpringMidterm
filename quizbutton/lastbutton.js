@@ -1,6 +1,6 @@
 function QuizButton(url) {
     return `
-    <div id="quizbutton" onclick="NextPage('quiz.html')" style="
+    <div id="quizbutton" onclick="NextPage('page2.html')" style="
     background-color: #EFFCFF;
     border: 7px solid #FFFFFF;
     border-radius: 12px;
@@ -16,8 +16,8 @@ function QuizButton(url) {
   left: 380px;
   top: 40vw;
   z-index: 1;"
-  <div onclick="NextPage('./quiz.html')">
-  start quiz
+  <div onclick="NextPage('./page2.html')">
+  next
 </div>
 	</div>
     </div> `;

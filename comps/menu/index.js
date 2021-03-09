@@ -21,10 +21,11 @@ function Menu() {
         position:flex;"
         onclick="HandleOpen()">open</button>
         <div>
-            <div><button onclick="NextPage('./page5.html')">Why adopt?</button></div>
+            
             <div><button onclick="NextPage('./page4.html')">Where should you adopt cats from?</button></div>
             <div><button onclick="NextPage('./page2.html')">How much does it cost to adopt a cat?</button></div>
             <div><button onclick="NextPage('./page3.html')">What kind of cats can you adopt?</button></div>
+            <div><button onclick="NextPage('./page5.html')">Why adopt?</button></div>
             <div><button onclick="NextPage('./quiz.html')">Quiz</button></div>
         </div>
     </div> `;

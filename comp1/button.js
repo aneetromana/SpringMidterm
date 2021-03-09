@@ -1,6 +1,6 @@
 function NextPage(url) {
     return `
-    <div id="button" onclick="NextPage('page3.html')" style="
+    <div id="button" onclick="NextPage('quiz.html')" style="
     background-color: #EEE5FF;
     border: 7px solid #FFFFFF;
     border-radius: 12px;
@@ -16,8 +16,8 @@ function NextPage(url) {
   left: 380px;
   top: 50vw;
   z-index: 1;"
-  <div onclick="NextPage('./page3.html')">
-  next
+  <div onclick="NextPage('./quiz.html')">
+  Start Quiz
 </div>
 	</div>
     </div> `;

@@ -1,6 +1,6 @@
 function StartButton(url) {
     return `
-    <div id="startbutton" onclick="NextPage('page2.html')" style="
+    <div id="startbutton" onclick="NextPage('page3.html')" style="
     background-color: #FFE5F9;
     border: 7px solid #FFFFFF;
     border-radius: 12px;
@@ -16,7 +16,7 @@ function StartButton(url) {
   left: 230px;
   top: 60vw;
   z-index: 1;"
-  <div onclick="NextPage('./page2.html')">
+  <div onclick="NextPage('./page3.html')">
   Start
 </div>
 	</div>

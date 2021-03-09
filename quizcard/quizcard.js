@@ -18,7 +18,7 @@ function QuizCard() {
     top: 30px;
     display:flex;
     z-index:-4;" <div>test your knowledge 
-    <div id="quiz"> 1. is adopting a cat all around cheaper comapared to a petstore?
+    <div id="quiz"> 1. is adopting a cat all around cheaper compared to a petstore?
     2. All cats from the shelter are sick</div>
     <button style="  background-color: #EEE5FF;
     border: 7px solid #FFFFFF;
