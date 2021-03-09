@@ -3,7 +3,7 @@ function QuizCard() {
     <div id="quizcard" style="
     border-radius: 25px;
     background: #D9FEE3;
-    width: 40vw;
+    width: 60vw;
     height: 100vw;  
     margin:47px;
     font-family: 'Actor', sans-serif;

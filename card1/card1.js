@@ -3,11 +3,11 @@ function CardTwo() {
     <div id="card1" style="
     border-radius: 25px;
     background: #D3F7FF;
-    width: 60vw;
+    width: 58vw;
     height: 100vw;  
-    margin:50px;
+    margin:72px;
     font-family: 'Actor', sans-serif;
-    font-size: 80px;
+    font-size: 30px;
     color: #FFFFFF;
     text-shadow: 2px 2px 2px  #FFCDF4,
     2px 2px 0 #FFCDF4,
@@ -17,7 +17,12 @@ function CardTwo() {
     position:absolute;
     z-index:-4;"
         onclick="HandleOpen()"></button>
-    
+        There is a few places to adopt cats from in Vancouver such as 
+
+        -VOKRA Vancouver Orphaned Kitten Rescue 
+        -BCSPCA
+        -Cat Therapy & Rescue 
+        -Catfe 
     </div> `;
 }
 
