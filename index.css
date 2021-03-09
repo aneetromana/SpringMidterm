@@ -1,4 +1,44 @@
 
+
+ 
+
+ 
+
+ 
+
+  .innerrectangle4 {
+
+    border-radius: 25px;
+    background: #FFE5F9;
+    padding: 20px; 
+    width: 50vw;
+    height: 60vw;  
+    margin:50px;
+    font-family: 'Actor', sans-serif;
+    font-size: 30px;
+  }
+
+  
+  #rcorners5 {
+    border-radius: 25px;
+    background: #D9FEE3;
+    width: 60vw;
+    height: 100vw;  
+    margin:50px;
+    font-family: 'Actor', sans-serif;
+    font-size: 80px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px  #FFCDF4,
+                          2px 2px 0 #FFCDF4,
+                         2px 2px 0 #FFCDF4,
+                        2px 2px 0 #FFCDF4;
+                        text-align:center;
+    
+  }
+
+
+
+
 html, body {
   margin:0;
 }

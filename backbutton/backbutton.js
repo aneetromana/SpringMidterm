@@ -1,6 +1,6 @@
-function NextPage(url) {
+function BackPage() {
     return `
-    <div id="button" onclick="NextPage('page3.html')" style="
+    <div id="backbutton" onclick="BackPage('title.html')" style="
     background-color: #EEE5FF;
     border: 7px solid #FFFFFF;
     border-radius: 12px;
@@ -16,7 +16,7 @@ function NextPage(url) {
   left: 230px;
   top: 50vw;
   z-index: 1;"
-  <div onclick="NextPage('./page3.html')">
+  <div onclick="BackPage('./title.html')">
   next
 </div>
 	</div>

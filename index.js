@@ -16,6 +16,7 @@ function Quiz() {
   document.getElementById('quiz').innerHTML = "That is not correct";
 }
 
-function NextPage(url){
+
+function BackPage(url){
 	location.href = url;
 }
