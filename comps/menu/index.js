@@ -18,13 +18,13 @@ function Menu() {
         border-width: 4px;
         font-family: 'Actor', sans-serif;
         font-size: 20px;
-        position:absolute;"
+        position:flex;"
         onclick="HandleOpen()">open</button>
         <div>
-            <div><a href="page2.html">About Page</a></div>
-            <div>What kind of cats can you adopt?</div>
-            <div>where should you adopt from </div>
-            <div>how much does it cost to adopt a cat</div>
+            <div><button onclick="NextPage('./page5.html')">Why adopt?</button></div>
+            <div><button onclick="NextPage('./page4.html')">Where should you adopt cats from?</button></div>
+            <div><button onclick="NextPage('./page2.html')">How much does it cost to adopt a cat?</button></div>
+            <div><button onclick="NextPage('./quiz.html')">Quiz</button></div>
         </div>
     </div> `;
 }
