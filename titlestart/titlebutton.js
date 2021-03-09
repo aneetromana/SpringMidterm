@@ -13,8 +13,8 @@ function StartButton(url) {
     cursor: pointer;
     font-family: 'Actor', sans-serif;
     position: absolute;
-  left: 230px;
-  top: 60vw;
+  left: 180px;
+  top: 80vw;
   z-index: 1;"
   <div onclick="NextPage('./page3.html')">
   Start

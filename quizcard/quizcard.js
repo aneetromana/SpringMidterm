@@ -32,7 +32,7 @@ function QuizCard() {
     cursor: pointer;
     font-family: 'Actor', sans-serif;
     position: absolute;
-  left: 450px;
+  left: 250px;
   top: 50vw;
   z-index: 1;"
     onclick="truee()">true</button>
@@ -67,7 +67,7 @@ function QuizCard() {
     cursor: pointer;
     font-family: 'Actor', sans-serif;
     position: absolute;
-  left: 520px;
+  left: 325px;
   top: 50vw;
   z-index: 1;""
     onclick="yes()">no</button>
