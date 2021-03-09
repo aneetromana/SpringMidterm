@@ -7,7 +7,7 @@ function QuizCard() {
     height: 100vw;  
     margin:66px;
     font-family: 'Actor', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     color: #FFFFFF;
     text-shadow: 2px 2px 2px  #FFCDF4,
     2px 2px 0 #FFCDF4,
