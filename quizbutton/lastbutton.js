@@ -1,4 +1,4 @@
-// function QuizButton(url) {
+function QuizButton(url) {
     return `
     <div id="quizbutton" onclick="NextPage('quiz.html')" style="
     background-color: #EFFCFF;
@@ -14,7 +14,7 @@
     font-family: 'Actor', sans-serif;
     position: absolute;
   left: 380px;
-  top: 80vw;
+  top: 40vw;
   z-index: 1;"
   <div onclick="NextPage('./quiz.html')">
   start quiz

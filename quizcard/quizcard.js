@@ -7,7 +7,7 @@ function QuizCard() {
     height: 100vw;  
     margin:66px;
     font-family: 'Actor', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     color: #FFFFFF;
     text-shadow: 2px 2px 2px  #FFCDF4,
     2px 2px 0 #FFCDF4,
@@ -15,10 +15,11 @@ function QuizCard() {
     2px 2px 0 #FFCDF4;
     text-align:center;
     position:absolute;
+    top: 30px;
     display:flex;
     z-index:-4;" <div>test your knowledge 
     <div id="quiz"> 1. is adopting a cat all around cheaper comapared to a petstore?
-    2. All cats from the shelter are</div>
+    2. All cats from the shelter are sick</div>
     <button style="  background-color: #EEE5FF;
     border: 7px solid #FFFFFF;
     border-radius: 12px;

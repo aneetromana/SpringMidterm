@@ -5,7 +5,7 @@ function LastCard() {
     background: #FFD7C0;
     width: 58vw;
     height: 100vw;  
-    margin:70px;
+    margin:69px;
     font-family: 'Actor', sans-serif;
     font-size: 30px;
     color: #FFFFFF;
@@ -15,7 +15,7 @@ function LastCard() {
     2px 2px 0 #FFCDF4;
     text-align:left;
     position:absolute;
-
+    top: 20px;
     z-index:-4;"
         onclick="HandleOpen()"></button>
         adopting a cat ranges from 

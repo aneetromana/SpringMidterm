@@ -15,6 +15,7 @@ function CardTwo() {
     2px 2px 0 #FFCDF4;
     text-align:center;
     position:absolute;
+    top: 20px;
     z-index:-4;"
         onclick="HandleOpen()"></button>
         There is a few places to adopt cats from in Vancouver such as 
