@@ -3,8 +3,8 @@ function CardThree() {
     <div id="cardtwo" style="
     border-radius: 25px;
     background: #EBE8FF;
-    width: 58vw;
-    height: 100vw;  
+    width: 53vw;
+    height: 120vw;  
     margin:70px;
     top:36px;
     left:20px;
