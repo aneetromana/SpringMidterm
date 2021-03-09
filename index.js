@@ -8,12 +8,12 @@ function ExitMenu() {
 }
 
 function Quiz() {
-  document.getElementById('quiz').innerHTML = "That is correct";
-  document.getElementById('quiz').style.color = "green";
+  document.getElementById('quizcard').innerHTML = "That is correct";
+  document.getElementById('quizcard').style.color = "green";
 }
 
 function Quiz() {
-  document.getElementById('quiz').innerHTML = "That is not correct";
+  document.getElementById('quizcard').innerHTML = "That is not correct";
 }
 
 

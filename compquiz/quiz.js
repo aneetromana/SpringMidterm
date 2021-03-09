@@ -6,7 +6,7 @@ function Quiz() {
         font-size: 60px;
         position:absolute;
         z-index:4;"
-        onclick="Quiz()"></button>
+        onclick="Truee()"></button>
      </div> `;
 }
 
