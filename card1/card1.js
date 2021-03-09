@@ -18,7 +18,7 @@ function CardTwo() {
     z-index:-4;"
         onclick="HandleOpen()"></button>
     
-    </div> `;a
+    </div> `;
 }
 
 
