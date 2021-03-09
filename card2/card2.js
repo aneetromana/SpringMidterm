@@ -20,6 +20,7 @@ function CardThree() {
     z-index:-4;"
         onclick="HandleOpen()"></button>
         There is a very wide range of cats to adopt from elderly cats, kittens and middle aged cats. There is also a variety of breeds of cats to adopt, the most commonly orphaned cats are usually domestic short-haired cats. 
+        <img src ="purplecat.png">
     </div> `;
 }
 

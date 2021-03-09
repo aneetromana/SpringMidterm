@@ -3,9 +3,9 @@ function QuizCard() {
     <div id="quizcard" style="
     border-radius: 25px;
     background: #D9FEE3;
-    width: 60vw;
+    width: 58vw;
     height: 100vw;  
-    margin:47px;
+    margin:66px;
     font-family: 'Actor', sans-serif;
     font-size: 50px;
     color: #FFFFFF;
@@ -17,12 +17,11 @@ function QuizCard() {
     position:absolute;
     display:flex;
     z-index:-4;" <div>test your knowledge 
-    <div id="quiz"> </div>
-    <button style="
-    background-color: #EEE5FF;
+    <div id="quiz"> is adopting a cat all around cheaper?</div>
+    <button style="  background-color: #EEE5FF;
     border: 7px solid #FFFFFF;
     border-radius: 12px;
-    width: 40px;
+    width: 120px;
     padding: 15px 32px;
     text-align: center;
     display: flex;
@@ -31,14 +30,14 @@ function QuizCard() {
     cursor: pointer;
     font-family: 'Actor', sans-serif;
     position: absolute;
-  left: 230px;
+  left: 520px;
   top: 50vw;
-  z-index: 1;"
+  z-index: 1;""
     onclick="truee()">true</button>
-    <button style="background-color: #EEE5FF;
+    <button style="  background-color: #EEE5FF;
     border: 7px solid #FFFFFF;
     border-radius: 12px;
-    width: 40px;
+    width: 120px;
     padding: 15px 32px;
     text-align: center;
     display: flex;
@@ -49,8 +48,7 @@ function QuizCard() {
     position: absolute;
   left: 100px;
   top: 50vw;
-  z-index: 1;"
-
+  z-index: 1;""
     onclick="falsee()">false</button>
     </div>
     

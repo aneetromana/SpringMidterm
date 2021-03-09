@@ -1,6 +1,6 @@
-function FifthPage(url) {
+function StartButton(url) {
     return `
-    <div id="fifthbutton" onclick="NextPage('page5.html')" style="
+    <div id="startbutton" onclick="NextPage('page2.html')" style="
     background-color: #FFE5F9;
     border: 7px solid #FFFFFF;
     border-radius: 12px;
@@ -13,11 +13,11 @@ function FifthPage(url) {
     cursor: pointer;
     font-family: 'Actor', sans-serif;
     position: absolute;
-  left: 380px;
-  top: 50vw;
+  left: 230px;
+  top: 60vw;
   z-index: 1;"
-  <div onclick="NextPage('./page5.html')">
-  next
+  <div onclick="NextPage('./page2.html')">
+  Start
 </div>
 	</div>
     </div> `;

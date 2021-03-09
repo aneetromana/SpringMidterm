@@ -1,7 +1,7 @@
-function FifthPage(url) {
+function QuizButton(url) {
     return `
-    <div id="fifthbutton" onclick="NextPage('page5.html')" style="
-    background-color: #FFE5F9;
+    <div id="quizbutton" onclick="NextPage('quiz.html')" style="
+    background-color: #EFFCFF;
     border: 7px solid #FFFFFF;
     border-radius: 12px;
     width: 40px;
@@ -16,8 +16,8 @@ function FifthPage(url) {
   left: 380px;
   top: 50vw;
   z-index: 1;"
-  <div onclick="NextPage('./page5.html')">
-  next
+  <div onclick="NextPage('./quiz.html')">
+  start quiz
 </div>
 	</div>
     </div> `;
