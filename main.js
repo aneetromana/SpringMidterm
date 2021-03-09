@@ -1,7 +1,9 @@
 document.querySelector("#main").innerHTML+=Menu();
 document.querySelector("#main").innerHTML+=NextPage();
-document.querySelector("#main").innerHTML+=Card();
+document.querySelector("#card").innerHTML+=Card();
 document.querySelector("#main").innerHTML+=Header();
 document.querySelector("#quiz").innerHTML+=Quiz();
-document.querySelector("#back").innerHTML+=Back();
+document.querySelector("#main").innerHTML+=Back();
+document.querySelector("#card1").innerHTML+=Card1();
+
 

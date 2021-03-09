@@ -17,6 +17,6 @@ function Quiz() {
 }
 
 
-function BackPage(url){
+function NextPage(url){
 	location.href = url;
 }

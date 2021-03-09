@@ -21,7 +21,7 @@ function Menu() {
         position:absolute;"
         onclick="HandleOpen()">open</button>
         <div>
-            <div>Why Adopt?</div>
+            <div><a href="page2.html">About Page</a></div>
             <div>What kind of cats can you adopt?</div>
             <div>where should you adopt from </div>
             <div>how much does it cost to adopt a cat</div>

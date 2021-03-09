@@ -1,6 +1,6 @@
 function BackPage() {
     return `
-    <div id="backbutton" onclick="BackPage('title.html')" style="
+    <div id="back" onclick="BackPage('title.html')" style="
     background-color: #EEE5FF;
     border: 7px solid #FFFFFF;
     border-radius: 12px;
