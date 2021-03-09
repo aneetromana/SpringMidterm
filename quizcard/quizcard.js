@@ -17,7 +17,43 @@ function QuizCard() {
     position:absolute;
     display:flex;
     z-index:-4;" <div>test your knowledge 
-    <div id="quiz"> is adopting a cat all around cheaper?</div>
+    <div id="quiz"> 1. is adopting a cat all around cheaper comapared to a petstore?
+    2. All cats from the shelter are</div>
+    <button style="  background-color: #EEE5FF;
+    border: 7px solid #FFFFFF;
+    border-radius: 12px;
+    width: 120px;
+    padding: 15px 32px;
+    text-align: center;
+    display: flex;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Actor', sans-serif;
+    position: absolute;
+  left: 450px;
+  top: 50vw;
+  z-index: 1;"
+    onclick="truee()">true</button>
+    <button style="  
+    background-color: #EEE5FF;
+    border: 7px solid #FFFFFF;
+    border-radius: 12px;
+    width: 120px;
+    padding: 15px 32px;
+    text-align: center;
+    display: flex;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Actor', sans-serif;
+    position: absolute;
+  left: 100px;
+  top: 50vw;
+  z-index: 1;"
+    onclick="falsee()">false</button>
+    </div>
+    <div id="quiz1"></div>
     <button style="  background-color: #EEE5FF;
     border: 7px solid #FFFFFF;
     border-radius: 12px;
@@ -33,7 +69,7 @@ function QuizCard() {
   left: 520px;
   top: 50vw;
   z-index: 1;""
-    onclick="truee()">true</button>
+    onclick="yes()">no</button>
     <button style="  background-color: #EEE5FF;
     border: 7px solid #FFFFFF;
     border-radius: 12px;
@@ -46,10 +82,10 @@ function QuizCard() {
     cursor: pointer;
     font-family: 'Actor', sans-serif;
     position: absolute;
-  left: 100px;
+  left: 170px;
   top: 50vw;
   z-index: 1;""
-    onclick="falsee()">false</button>
+    onclick="no()">yes</button>
     </div>
     
 
@@ -57,10 +93,22 @@ function QuizCard() {
 }
 
 function truee(){
-    document.getElementById('quiz').innerHTML="That is correct";
+    document.getElementById('quiz').innerHTML="That is not correct";
     document.getElementById('quiz').style.color="green";
 }
 
 function falsee(){
-    document.getElementById('quiz').innerHTML="That is not correct";
+    document.getElementById('quiz').innerHTML="That is correct";
+    document.getElementById('quiz').style.color="green";
+}
+
+
+function yes(){
+    document.getElementById('quiz1').innerHTML="That is incorrect";
+    document.getElementById('quiz').style.color="green";
+}
+
+function no(){
+    document.getElementById('quiz1').innerHTML="That is correct";
+    document.getElementById('quiz').style.color="green";
 }
