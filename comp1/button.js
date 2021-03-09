@@ -13,8 +13,8 @@ function NextPage(url) {
     cursor: pointer;
     font-family: 'Actor', sans-serif;
     position: absolute;
-  left: 380px;
-  top: 50vw;
+    left: 240px;
+    top: 80vw;
   z-index: 1;"
   <div onclick="NextPage('./quiz.html')">
   Start Quiz

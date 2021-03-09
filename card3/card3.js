@@ -15,7 +15,7 @@ function CardFour() {
     2px 2px 0 #FFCDF4;
     text-align:center;
     position:absolute;
-    top: 20px;
+    top: -8px;
     z-index:-4;"
         onclick="HandleOpen()"></button>
         Vancouver has a very large population of feral cats needing homes and to be rescued. Adopting has many benefits! Not only are you saving an animal from getting euthanized, you are giving them a loving and caring home and in return cats can provide a lot of affection by easing depression and being therapeutic for health problems. 

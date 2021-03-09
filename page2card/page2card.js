@@ -15,7 +15,7 @@ function LastCard() {
     2px 2px 0 #FFCDF4;
     text-align:left;
     position:absolute;
-    top: 20px;
+    top: -8px;
     z-index:-4;"
         onclick="HandleOpen()"></button>
         adopting a cat ranges from 

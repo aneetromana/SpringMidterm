@@ -13,7 +13,7 @@ function FifthPage(url) {
     cursor: pointer;
     font-family: 'Actor', sans-serif;
     position: absolute;
-  left: 380px;
+  left: 280px;
   top: 50vw;
   z-index: 1;"
   <div onclick="NextPage('./page5.html')">

@@ -13,8 +13,8 @@ function QuizButton(url) {
     cursor: pointer;
     font-family: 'Actor', sans-serif;
     position: absolute;
-  left: 380px;
-  top: 40vw;
+    left: 280px;
+    top: 70vw;
   z-index: 1;"
   <div onclick="NextPage('./page2.html')">
   next

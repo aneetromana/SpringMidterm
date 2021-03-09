@@ -8,7 +8,7 @@ function Card() {
     margin:50px;
     font-family: 'Actor', sans-serif;
     font-size: 30px;
-    top:41px;
+    top:20px;
     color: #FFFFFF;
     text-shadow: 2px 2px 2px  #FFCDF4,
     2px 2px 0 #FFCDF4,

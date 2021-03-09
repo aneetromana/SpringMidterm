@@ -15,7 +15,7 @@ function QuizCard() {
     2px 2px 0 #FFCDF4;
     text-align:center;
     position:absolute;
-    top: 30px;
+    top: -8px;
     display:flex;
     z-index:-4;" <div>test your knowledge 
     <div id="quiz"> 1. is adopting a cat all around cheaper compared to a petstore?
